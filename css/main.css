@@ -29,7 +29,7 @@ p {
     line-height: 1.4em;
     color: #333;
 }
-.blurb a {
+.container > .blurb > p > a {
     text-decoration: none;
     /*color: #999;*/
 footer {
@@ -44,9 +44,11 @@ footer {
 #footer-links a:hover {
     color:#500000;
 }
-footer > p, #copyright {
+footer > p, {
     text-align:center;
 }
+#copyright {
+    text-align:center;
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
