@@ -44,9 +44,9 @@ footer {
 #footer-links a:hover {
     color:#500000;
 }
-footer > p, {
+/*footer > p, {
     text-align:center;
-}
+}*/
 #copyright {
     text-align:center;
 ul.posts { 
