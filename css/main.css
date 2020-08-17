@@ -29,6 +29,9 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+.blurb a {
+    text-decoration: none;
+    /*color: #999;*/
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -36,11 +39,12 @@ footer {
 #footer-links {
     text-align:center;
     color:blue;
+    text-decoration: none;
 }
 #footer-links a:hover {
     color:#500000;
 }
-footer > p {
+footer > p, #copyright {
     text-align:center;
 }
 ul.posts { 
