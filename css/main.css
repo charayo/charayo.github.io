@@ -36,14 +36,14 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
-#footer-links a {
+/*#footer-links a {
     text-align:center;
     color:blue;
     text-decoration: none;
 }
 #footer-links a:hover {
     color:#500000;
-}
+}*/
 /*footer > p, {
     text-align:center;
 }*/
