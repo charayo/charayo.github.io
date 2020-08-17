@@ -36,6 +36,9 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
+footer ul {
+    text-align:center;
+}
 /*#footer-links a {
     text-align:center;
     color:blue;
