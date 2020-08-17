@@ -33,9 +33,15 @@ footer {
     font-size: .8em;
 }
 footer > ul {
-    text-align:center
+    text-align:center;
+    color:blue;
 }
-
+footer > ul > a:hover {
+    color:red;
+}
+footer > p {
+    text-align:center;
+}
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
