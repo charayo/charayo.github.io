@@ -215,10 +215,23 @@ padding: 0em 2em;
 }
 /*for mobile device*/
 @media only screen and (max-width:450px){
-
-
-
-    #aboutmecol {
+#header-wrapper {
+        padding: 50px 10px;
+        cursor: pointer;
+    }
+#header-text-wrapper {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding: 80px 15px;
+    }
+#header-text-wrapper h1 {
+        font-size: 2rem;
+    }
+#header-text-wrapper p {
+        font-size: 1rem;
+        padding: 0px;
+    }
+#aboutmecol {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 10px;
