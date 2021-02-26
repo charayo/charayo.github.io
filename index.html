@@ -1,162 +1,210 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Charayo Digitalz</title>
-		<!--link to main style sheet-->
-		<link rel="stylesheet" type="text/css" href="./css/web.css">
-	</head>
-	<body>
-		<nav>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Charayo Digitalz</title>
+	<!--link to main style sheet-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/web.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+		integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+
+<body class="">
+	<div class="container-fluid">
+		<nav class="nav">
 			<div id="nav-links">
-				<ul>
-					<li><a href="/">Home</a></li>
+				<ul class="nav-link">
+					<li class="nav-link"><a href="/">Home</a></li>
 					<li><a href="/about">About</a></li>
 					<li><a href="/cv">CV</a></li>
 					<li><a href="/blog">Blog</a></li>
 					<li><a href="/projects">Projects</a></li>
 				</ul>
-			<div>
+			</div>
 		</nav>
-		<header>
-			<div id="header-wrapper" class="container">
+		<header class="pt-0">
+			<div id="header-wrapper" class="">
 				<!--<div id="header-bg">
-					<img src="images/photo5.jpg" alt="">
-				</div>-->
+						<img src="images/photo5.jpg" alt="">
+					</div>-->
 				<div id="header-text-wrapper" class="blurb">
-					<h1>Hi there, I'm Ayodeji the golden mind behind Charayo Digitalz!</h1>
-					<p>I'm a growing Computer Developer bagging up all relevant skills leading to my dream... <a href="/about">Read more about my life...</a></p>
+					<h1>Hi there! I'm Ayodeji ADENIYI, a Software Engineer and a Mechanical Engineering Graduate. It's a
+						pleasure having you here!</h1>
+					<p class="container">Software Engineering has been my dream and desired career path ever since... <a
+							href="#about-section">Read more about my life...</a></p>
 				</div><!-- /.blurb -->
 			</div><!-- /.container -->
 		</header>
+
 		<section id="about-section">
-			<div id="about-page">
+
+			<div id="">
 				<div class="title-bar">
-					<h1>About me</h1>
+					<h2>About me</h2>
 				</div>
-				<div id="aboutmecol">
-					<div id="my-image-wrapper">
-						<img src="images/myphoto.png" alt="ceo's photo">
+				<div class="row">
+					<div id="my-image-wrappe" class="col-sm-4">
+						<img src="images/myphoto.png" alt="ceo's photo" class="img-thumbnail">
 					</div>
-					<div id="aboutme-text-wrapper">
-						<p>ipsum dolor sit amet, consectetur adipisicing elit. Est sapiente libero 
-							dolor adipisci nihil dolorem ipsa neque, quo dolores a eaque iure eos, accusamus, molestias quibusdam ullam. 
-							Natus, itaque enim error dolores consectetur, eum, neque expedita 
-							explicabo in quae laboriosam.ipsum dolor sit amet, consectetur adipisicing elit.
-							 Est sapiente libero dolor adipisci nihil dolorem ipsa neque, quo dolores a eaque iure eos, accusamus, molestias quibu
-							sdam ullam. Natus, itaque enim error ipsum dolor sit amet, consectetur adipisicing elit.
+					<div id="aboutme-text" class="col-sm-8 p-5 ">
+						<p class="card p-3 shadow-lg mute">The journey down to this point, started a decade and a few years ago, with a profound
+							interest in CorelDraw Graphics Suite while I was in Junior Secondary School. Thanks to
+							Honecomb Unique College Ibadan, and my Computer Subject Teacher, Aunty Sola, who took her
+							time to put my fellows and me through designing with CorelDraw Software. This interest
+							developed across several other Microsoft Packages, and other software.
+							I could remember owning my first and self-designed website back in secondary schools
+							(durtun.wapka.mobi), and also being a fellow Admin alongside some friends and a cousin. The
+							experience was awesome; besides the creativity we've got, having the ability to kick anyone
+							out of our website was one of the amazing and yet childish power we wielded -- I enjoyed it
+							:-) lol.
+							Later, toward my final year as a Mechanical Engineering Student, I autodidactically started
+							a WordPress Web Development. I developed myself through some projects or perhaps jobs i got
+							then. Afterward, I advanced to seeing HTML/CSS video tutorials, which did help.
+							After my NYSC, I became conclusive on becoming a Software Engineer, which led me to Google
+							searching academies close by, where I found SQI College of ICT that helped fine-tune me to
+							what I am, coupled with self-determination and diligence.
+
+
 						</p>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section id="services-section">
-			<div class="title-bar">
-				<h1>Services</h1>
+		<section>
+			<div class="border-top border-dark text-center text-uppercase">
+				<h2>Services</h2>
 			</div>
-			<div class="portfolio-items-wrapper">
-				<div class="portfolio-item-wrapper">
-					<div class="img-text-wrapper">
-						<div class="bg-image">
-							<img src="./images/seo3.jpg" alt="SEO">
-						</div>
-						<div class="svc-wrapper">
-							<div class="grid-title">
-								<span class="title">Full SEO</span>
+			<div class="portfolio-items-wrapper pl-5 pr-5">
+
+				<div class="row">
+					<div class="portfolio-item-wrapper mt-5 col-md-4 box1">
+
+						<div class="img-text-wrapper">
+							<div class="bg-image">
+								<img src="./images/seo3.jpg" alt="SEO">
 							</div>
-							<div class="subtitle">
-								<h3>view this category of service.</h3>
+							<div class="svc-wrapper ">
+								<div class="grid-title container">
+									<span class="title">Full SEO</span>
+									<h5>view this category of service.</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item-wrapper mt-5 col-md-4">
+						<div class="img-text-wrapper">
+							<div class="bg-image">
+								<image src="./images/WEB-APP-1.jpg" alt="Web Programming"></image>
+							</div>
+							<div class="svc-wrapper">
+								<div class="grid-title container">
+									<span class="title">Web Programming</span>
+
+
+									<h5>view this category of service.</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item-wrapper mt-5 col-md-4">
+						<div class="img-text-wrapper">
+							<div class="bg-image">
+								<image src="./images/cm1.jpg" alt="CMS"></image>
+							</div>
+							<div class="svc-wrapper">
+								<div class="grid-title container text-center">
+									<span class="title ">Content Management</span>
+									<h5>view this category of service.</h5>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="portfolio-item-wrapper">					
-					<div class="img-text-wrapper">
-						<div class="bg-image">
-							<image src="./images/WEB-APP-1.jpg" alt="Web Programming"></image>
-						</div>
-						<div class="svc-wrapper">
-							<div class="grid-title">
-								<span class="title">Web Programming</span>
+
+				<div class="row">
+					<div class="portfolio-item-wrapper mt-5 mb-5 col-md-4">
+						<div class="img-text-wrapper">
+							<div class="bg-image">
+								<image src="./images/dm3.png" alt="Digtal Marketting"></image>
 							</div>
-							<div class="subtitle">
-								<h3>view this category of service.</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="portfolio-item-wrapper">
-					<div class="img-text-wrapper">
-						<div class="bg-image">
-							<image src="./images/cm1.jpg" alt="CMS"></image>
-						</div>
-						<div class="svc-wrapper">
-							<div class="grid-title">
-								<span class="title">Content Management</span>
-							</div>
-							<div class="subtitle">
-								<h3>view this category of service.</h3>
+							<div class="svc-wrapper">
+								<div class="grid-title container">
+									<span class="title">Digital Marketting</span>
+									<h5>view this category of service.</h5>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="portfolio-item-wrapper">					
-					<div class="img-text-wrapper">
-						<div class="bg-image">
-							<image src="./images/dm3.png" alt="Digtal Marketting"></image>
-						</div>
-						<div class="svc-wrapper">
-							<div class="grid-title">
-								<span class="title">Digital Marketting</span>
+					<div class="portfolio-item-wrapper mt-5 mb-5 col-md-4">
+						<div class="img-text-wrapper">
+							<div class="bg-image">
+								<image src="./images/native.jpg" alt="DMarketting"></image>
 							</div>
-							<div class="subtitle">
-								<h3>view this category of service.</h3>
+							<div class="svc-wrapper">
+								<div class="grid-title container">
+									<span class="title">Native App Dev</span>
+									<h5>view this category of service.</h5>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="portfolio-item-wrapper">					
-					<div class="img-text-wrapper">
-						<div class="bg-image">
-							<image src="./images/native.jpg" alt="DMarketting"></image>
-						</div>
-						<div class="svc-wrapper">
-							<div class="grid-title">
-								<span class="title">Native App Dev</span>
+					<div class="portfolio-item-wrapper mt-5 mb-5 col-md-4">
+						<div class="img-text-wrapper">
+							<div class="bg-image">
+								<image src="./images/ui-ux.jpg" alt="DMarketting"></image>
 							</div>
-							<div class="subtitle">
-								<h3>view this category of service.</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="portfolio-item-wrapper">					
-					<div class="img-text-wrapper">
-						<div class="bg-image">
-							<image src="./images/ui-ux.jpg" alt="DMarketting"></image>
-						</div>
-						<div class="svc-wrapper">
-							<div class="grid-title">
-								<span class="title">UI/UX Design</span>
-							</div>
-							<div class="subtitle">
-								<h3>view this category of service.</h3>
+							<div class="svc-wrapper">
+								<div class="grid-title container">
+									<span class="title">UI/UX Design</span>
+									<h5>view this category of service.</h5>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
+
 		<footer>
-    		<div id="footer-links">
-				<ul>
-					<li><a href="mailto:charayodigitals@gmail.com">charayodigitals@gmail.com</a></li>
-					<li><a href="https://github.com/charayo">github.com/charayo</a></li>
-				</ul>
+			<div id="footer-links" class="container mt-3">
+				<div class="footer-sections-wrapper row pt-2">
+					<div class="sec1 col-md-3 ">
+						<!-- <a><h6>Whatsapp Me Here</h6></a> -->
+					</div>
+					<div class="sec1 col-md-6">
+						<div class="card p-5 shadow-lg rounded">
+							<form action="/action_page.php">
+								<label for="name">Name: </label><input class="form-control" type="text" label="Name"
+									placeholder="John Doe" id="name"><br>
+								<label for="email">Email: </label><input class="form-control" type="email"
+									placeholder="johndoe@email.com" id="email"><br>
+								<textarea id="message" class="form-control"
+									placeholder="Your Message Here"></textarea><br>
+								<input type="button" id="form-btn" value="Submit" class="btn btn-primary form-control">
+							</form>
+						</div>
+					</div>
+
+					<div class="sec1 col-md-3">
+						<!-- <h6>Share buttons here</h6> -->
+					</div>
+				</div>
+				<div class="mt-5">
+					<ul>
+						<li><a href="mailto:charayodigitals@gmail.com">charayodigitals@gmail.com</a></li>
+						<li><a href="https://github.com/charayo">github.com/charayo</a></li>
+						<li><a href="https://wa.me/message/F2GCWW3PCPZFC1">whatsapp me</a></li>
+					</ul>
+				</div>
+
 			</div>
 			<div id="copyright">
 				<p>copyright &copy 2020</p>
 			</div>
 		</footer>
-	</body>
+	</div>
+</body>
+
 </html>
