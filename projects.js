@@ -42,16 +42,11 @@ function btnAnimation() {
 function startAnime() {
     interval1 = setInterval(changeFoto, 6000);
     //makes the button beat
-    btnBeat = setInterval(btnAnimation, 1000);
-    
+    btnBeat = setInterval(btnAnimation, 1000);    
 }
 startAnime();
 
 //Thhis stop slide when clicked
-document.getElementById('fotoSlide').addEventListener('click', function () {
-
-});
-
 function pauseAnime() {
     clearInterval(interval1);
     clearInterval(btnBeat);
