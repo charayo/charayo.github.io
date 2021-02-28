@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charayo Digitalz</title>
+    <!--link to main style sheet-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/web.css">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> -->
+</head>
+
+<body class="">
+    <div class="container-fluid">
+        <nav class="nav">
+            <div id="nav-links">
+                <ul class="nav-link">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="#" class="text-primary">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+        <header class="pt-0 text-center">
+            <div id="header-wrapper" class="">
+                <div id="header-text-wrapper" class="blurb">
+                    <h1>Hi there! Still your favourite Software Engineer Ayodeji ADENIYI. It's a pleasure having you
+                        here in my Project Portfolio!</h1>
+                    <p class="container">Here are projects I have laid my hands on since the beginning of my journey
+                        down the Tech path. You may find some projects crude, I left them to pattern my improvement down
+                        this path; some modified ones are appended later.<a href="#myProj"> Click Here 'N' Let's Go!</a></p>
+                </div>
+
+            </div>
+
+        </header>
+        <div class="container-fluid mt-2" id="myProj">
+            <div class="row">
+                <div class="col-md-4 side-bar pt-3 text-center shadow">
+                    <div>
+                        <h2 class="my-red">HERE ARE SOME PROJECTS I STARTED WITH!</h2>
+                        <h4>
+                            On a click of the button, the web version of the image showing loads below.
+                        </h4>
+                    </div>
+                    <span id="btnDiv" class="bg-dark">
+                        <button onclick="iFrame()" id="btn" class="btn btn-primary form-control w-25 mt-2 beat">visit</button>
+                    </span>
+                </div>
+                <div class="col-md-8">
+                    <div>
+                        <img id="fotoSlide" class="img-thumbnail" src="images/photo-1.png" alt="project">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-1" id="i-frameId">
+            
+        </div>
+
+    </div>
+    <script src="projects.js "></script>
+</body>
+
+</html>

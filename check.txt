@@ -1,0 +1,12 @@
+ function iFrame() {
+     frameTag.innerHTML = `< iframe src = ${link} frameborder = "0"  class = "w-100" height = "600px" > < /iframe>`;
+ }
+    btnDiv.innerHTML = `<button onclick=" " id="btn" class="btn btn-primary form-control w-25 mt-2 beat">visit</button>`
+    https://charayo.github.io/Pig-game-practice/
+    https://charayo.github.io/fiverr-calculator/
+    https://charayo.github.io/Glassfaze/
+    https://charayo.github.io/My-Alarm/
+    https://charayo.github.io/Rock-Paper-Scissors-Game/
+    https://charayo.github.io/simple-student-list-app/
+    https://charayo.github.io/to-do-app/
+    https://charayo.github.io/API-Data-Fetcha-Data-App/
