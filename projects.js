@@ -33,11 +33,7 @@ function changeFoto() {
 }
 function iFrame() {
     frameTag.innerHTML = `<iframe src="${link}" frameborder="0" class="w-100" height="600px"></iframe>`;
-    prompt(d);
 }
-// function iFrame() {
-//     frameTag.innerHTML = `< iframe src = ${link} frameborder = "0"  class = "w-100" height = "600px" > < /iframe>`;
-// }
 
 function btnAnimation() {
     document.getElementById('btn').classList.toggle('beat')
@@ -59,7 +55,6 @@ document.getElementById('fotoSlide').addEventListener('click', function () {
 function pauseAnime() {
     clearInterval(interval1);
     clearInterval(btnBeat);
-    console.log('interval cleared');
 }
 
 document.getElementById('btnDiv').addEventListener('mouseover', pauseAnime);
